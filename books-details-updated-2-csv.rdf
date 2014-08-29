@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:cc="http://creativecommons.org/ns#">
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/1">
+	<rdf:author>Grewal, T.S</rdf:author>
+	<rdf:title>Double entry book-keeping -XI</rdf:title>
+	<rdf:edition>9th</rdf:edition>
+	<rdf:publisher>Sultan Chand</rdf:publisher>
+	<rdf:year>2000</rdf:year>
+	<rdf:cost>105</rdf:cost>
+	<rdf:location>505</rdf:location>
+	 
+	<rdf:dateofreturn>N/A</rdf:dateofreturn>
+<rdf:booksAvailable>2/10</rdf:booksAvailable>
+</rdf:Description>
+
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/11">
+	<rdf:author>Dass, H.K</rdf:author>
+	<rdf:title>Advanced engineering mathematics</rdf:title>
+	<rdf:edition>8th</rdf:edition>
+	<rdf:publisher>S Chand</rdf:publisher>
+	<rdf:year>2000</rdf:year>
+	<rdf:cost>200</rdf:cost>
+	<rdf:location>505</rdf:location>
+	 
+	<rdf:dateofreturn>N/A</rdf:dateofreturn>
+<rdf:booksAvailable>2/10</rdf:booksAvailable>
+</rdf:Description>
+
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/21">
+	<rdf:author>Ghosh, P.K</rdf:author>
+	<rdf:title>Strategic planning and management</rdf:title>
+	<rdf:edition>8th</rdf:edition>
+	<rdf:publisher>Sultan Chand</rdf:publisher>
+	<rdf:year>2000</rdf:year>
+	<rdf:cost>125</rdf:cost>
+	<rdf:location>502</rdf:location>
+	 
+	<rdf:dateofreturn>N/A</rdf:dateofreturn>
+<rdf:booksAvailable>2/10</rdf:booksAvailable>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/31">
+	<rdf:author>Hancock, John C.</rdf:author>
+	<rdf:title>Introduction to the principles of communication theory</rdf:title>
+	<rdf:edition>8th</rdf:edition>
+	<rdf:publisher>Tata McGraw hill</rdf:publisher>
+	<rdf:year>1999</rdf:year>
+	<rdf:cost>100</rdf:cost>
+	<rdf:location>502</rdf:location>
+	 
+	<rdf:dateofreturn>N/A</rdf:dateofreturn>
+<rdf:booksAvailable>2/10</rdf:booksAvailable>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/32">
+	<rdf:author>Raisinghania, M.D</rdf:author>
+	<rdf:title>Advanced differential equations</rdf:title>
+	<rdf:edition>7th</rdf:edition>
+	<rdf:publisher>S.Chand</rdf:publisher>
+	<rdf:year>2000</rdf:year>
+	<rdf:cost>150</rdf:cost>
+	<rdf:location>502</rdf:location>
+	 
+	<rdf:dateofreturn>N/A</rdf:dateofreturn>
+<rdf:booksAvailable>2/10</rdf:booksAvailable>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/37">
+	<rdf:author>Shanti Narayan</rdf:author>
+	<rdf:title>Theory of function of a complex variable</rdf:title>
+	<rdf:edition>7th</rdf:edition>
+	<rdf:publisher>S.Chand</rdf:publisher>
+	<rdf:year>1999</rdf:year>
+	<rdf:cost>70</rdf:cost>
+	<rdf:location>502</rdf:location>
+	 
+	<rdf:dateofreturn>N/A</rdf:dateofreturn>
+<rdf:booksAvailable>2/10</rdf:booksAvailable>
+</rdf:Description>
+
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/42">
+	<rdf:author>Raisinghania, M.D</rdf:author>
+	<rdf:title>Ordinary and partial differential equations</rdf:title>
+	<rdf:edition>6th</rdf:edition>
+	<rdf:publisher>S.Chand</rdf:publisher>
+	<rdf:year>2001</rdf:year>
+	<rdf:cost>160</rdf:cost>
+	<rdf:location>400</rdf:location>
+	 
+	<rdf:dateofreturn>N/A</rdf:dateofreturn>
+<rdf:booksAvailable>2/10</rdf:booksAvailable>
+</rdf:Description>
+
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/47">
+	<rdf:author>Haykin, Simon</rdf:author>
+	<rdf:title>Communication systems</rdf:title>
+	<rdf:edition>4th</rdf:edition>
+	<rdf:publisher>John Wiley</rdf:publisher>
+	<rdf:year>2000</rdf:year>
+	<rdf:cost>200</rdf:cost>
+	<rdf:location>400</rdf:location>
+	 
+	<rdf:dateofreturn>N/A</rdf:dateofreturn>
+<rdf:booksAvailable>2/10</rdf:booksAvailable>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/48">
+	<rdf:author>Meriam, J.L</rdf:author>
+	<rdf:title>Engineering mechanics statics</rdf:title>
+	<rdf:edition>4th</rdf:edition>
+	<rdf:publisher>Johnwiley &amp; Sons</rdf:publisher>
+	<rdf:year>1998</rdf:year>
+	<rdf:cost>374</rdf:cost>
+	<rdf:location>400</rdf:location>
+	 
+	<rdf:dateofreturn>N/A</rdf:dateofreturn>
+<rdf:booksAvailable>2/10</rdf:booksAvailable>
+</rdf:Description>
+
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/51">
+	<rdf:author>Meriam, J.L</rdf:author>
+	<rdf:title>Engineering machanics dynamics</rdf:title>
+	<rdf:edition>4th</rdf:edition>
+	<rdf:publisher>John Wiley</rdf:publisher>
+	<rdf:year>1998</rdf:year>
+	<rdf:cost>399.5</rdf:cost>
+	<rdf:location>400</rdf:location>
+	 
+	<rdf:dateofreturn>N/A</rdf:dateofreturn>
+<rdf:booksAvailable>2/10</rdf:booksAvailable>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/52">
+	<rdf:author>Meriam, J.L</rdf:author>
+	<rdf:title>Engineering machanics dynamics</rdf:title>
+	<rdf:edition>4th</rdf:edition>
+	<rdf:publisher>John Wiley</rdf:publisher>
+	<rdf:year>1998</rdf:year>
+	<rdf:cost>399.5</rdf:cost>
+	<rdf:location>400</rdf:location>
+	 
+	<rdf:dateofreturn>N/A</rdf:dateofreturn>
+<rdf:booksAvailable>2/10</rdf:booksAvailable>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/54">
+	<rdf:author>Haykin, Simon</rdf:author>
+	<rdf:title>Communication system</rdf:title>
+	<rdf:edition>3rd ed</rdf:edition>
+	<rdf:publisher>John Wiley</rdf:publisher>
+	<rdf:year>1999</rdf:year>
+	<rdf:cost>290</rdf:cost>
+	<rdf:location>400</rdf:location>
+	 
+	<rdf:dateofreturn>N/A</rdf:dateofreturn>
+<rdf:booksAvailable>2/10</rdf:booksAvailable>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/55">
+	<rdf:author>Carlson, Bruce.A</rdf:author>
+	<rdf:title>Communication system</rdf:title>
+	<rdf:edition>3rd</rdf:edition>
+	<rdf:publisher>Tata McGraw hill</rdf:publisher>
+	<rdf:year>1986</rdf:year>
+	<rdf:cost>350</rdf:cost>
+	<rdf:location>400</rdf:location>
+	 
+	<rdf:dateofreturn>N/A</rdf:dateofreturn>
+<rdf:booksAvailable>2/10</rdf:booksAvailable>
+</rdf:Description>
+
+
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/57">
+	<rdf:author>khan, Y.M</rdf:author>
+	<rdf:title>Financial management</rdf:title>
+	<rdf:edition>3rd</rdf:edition>
+	<rdf:publisher>Tata McGraw hill</rdf:publisher>
+	<rdf:year>1999</rdf:year>
+	<rdf:cost>225</rdf:cost>
+	<rdf:location>400</rdf:location>
+	 
+	<rdf:dateofreturn>N/A</rdf:dateofreturn>
+<rdf:booksAvailable>2/10</rdf:booksAvailable>
+</rdf:Description>
+
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/67">
+	<rdf:author>Lathi, B.P</rdf:author>
+	<rdf:title>Modern digital and analog communication system</rdf:title>
+	<rdf:edition>3rd</rdf:edition>
+	<rdf:publisher>Oxford university press</rdf:publisher>
+	<rdf:year>2000</rdf:year>
+	<rdf:cost>250</rdf:cost>
+	<rdf:location>400</rdf:location>
+	 
+	<rdf:dateofreturn>N/A</rdf:dateofreturn>
+<rdf:booksAvailable>2/10</rdf:booksAvailable>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/68">
+	<rdf:author>Raisinghania, M.D</rdf:author>
+	<rdf:title>Vector calculus</rdf:title>
+	<rdf:edition>3rd</rdf:edition>
+	<rdf:publisher>S Chand</rdf:publisher>
+	<rdf:year>1997</rdf:year>
+	<rdf:cost>60</rdf:cost>
+	<rdf:location>400</rdf:location>
+	 
+	<rdf:dateofreturn>N/A</rdf:dateofreturn>
+<rdf:booksAvailable>2/10</rdf:booksAvailable>
+</rdf:Description>
+
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/70">
+	<rdf:author>Deltoro, Vincent</rdf:author>
+	<rdf:title>Electrical engineering fundamentals</rdf:title>
+	<rdf:edition>2nd</rdf:edition>
+	<rdf:publisher>Prentice- hall of India</rdf:publisher>
+	<rdf:year>2000</rdf:year>
+	<rdf:cost>250</rdf:cost>
+	<rdf:location>405</rdf:location>
+	 
+	<rdf:dateofreturn>N/A</rdf:dateofreturn>
+<rdf:booksAvailable>2/10</rdf:booksAvailable>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/71">
+	<rdf:author>Liu, C.L</rdf:author>
+	<rdf:title>Elements of discrete mathematic</rdf:title>
+	<rdf:edition>2nd</rdf:edition>
+	<rdf:publisher>McGraw Hill</rdf:publisher>
+	<rdf:year>1977</rdf:year>
+	<rdf:cost>259</rdf:cost>
+	<rdf:location>405</rdf:location>
+	 
+	<rdf:dateofreturn>N/A</rdf:dateofreturn>
+<rdf:booksAvailable>2/10</rdf:booksAvailable>
+</rdf:Description>
+
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/78">
+	<rdf:author>Mano, Morris.M</rdf:author>
+	<rdf:title>Digital design</rdf:title>
+	<rdf:edition>2nd</rdf:edition>
+	<rdf:publisher>Prentice- hall of India</rdf:publisher>
+	<rdf:year>2000</rdf:year>
+	<rdf:cost>175</rdf:cost>
+	<rdf:location>405</rdf:location>
+	 
+	<rdf:dateofreturn>N/A</rdf:dateofreturn>
+<rdf:booksAvailable>2/10</rdf:booksAvailable>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/88">
+	<rdf:author>Mathur, A.B</rdf:author>
+	<rdf:title>Advanced engineering matematics</rdf:title>
+	<rdf:edition>2nd</rdf:edition>
+	<rdf:publisher>Khanna</rdf:publisher>
+	<rdf:year>2000</rdf:year>
+	<rdf:cost>175</rdf:cost>
+	<rdf:location>405</rdf:location>
+	 
+	<rdf:dateofreturn>N/A</rdf:dateofreturn>
+<rdf:booksAvailable>2/10</rdf:booksAvailable>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/89">
+	<rdf:author>Narang, Pankaj</rdf:author>
+	<rdf:title>Pointers simplified</rdf:title>
+	<rdf:edition>2nd</rdf:edition>
+	<rdf:publisher>Khanna</rdf:publisher>
+	<rdf:year>1999</rdf:year>
+	<rdf:cost>150</rdf:cost>
+	<rdf:location>405</rdf:location>
+	 
+	<rdf:dateofreturn>N/A</rdf:dateofreturn>
+<rdf:booksAvailable>2/10</rdf:booksAvailable>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/90">
+	<rdf:author>Oppenheim, Alan V</rdf:author>
+	<rdf:title>Signal and systems</rdf:title>
+	<rdf:edition>2nd</rdf:edition>
+	<rdf:publisher>Prentice- hall of India</rdf:publisher>
+	<rdf:year>2000</rdf:year>
+	<rdf:cost>225</rdf:cost>
+	<rdf:location>405</rdf:location>
+	 
+	<rdf:dateofreturn>N/A</rdf:dateofreturn>
+<rdf:booksAvailable>2/10</rdf:booksAvailable>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/91">
+	<rdf:author>Ramamoorty, M</rdf:author>
+	<rdf:title>Intrroduction thyristors and their applications</rdf:title>
+	<rdf:edition>2nd</rdf:edition>
+	<rdf:publisher>East west</rdf:publisher>
+	<rdf:year>1998</rdf:year>
+	<rdf:cost>125</rdf:cost>
+	<rdf:location>405</rdf:location>
+	 
+	<rdf:dateofreturn>N/A</rdf:dateofreturn>
+<rdf:booksAvailable>2/10</rdf:booksAvailable>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/92">
+	<rdf:author>Salaria, R.S</rdf:author>
+	<rdf:title>Simplified text-cum-workbook on application programming in c</rdf:title>
+	<rdf:edition>2nd</rdf:edition>
+	<rdf:publisher>Khanna</rdf:publisher>
+	<rdf:year>2000</rdf:year>
+	<rdf:cost>240</rdf:cost>
+	<rdf:location>405</rdf:location>
+	 
+	<rdf:dateofreturn>N/A</rdf:dateofreturn>
+<rdf:booksAvailable>2/10</rdf:booksAvailable>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/93">
+	<rdf:author>Sze, S.M.</rdf:author>
+	<rdf:title>VLSI technology</rdf:title>
+	<rdf:edition>2nd</rdf:edition>
+	<rdf:publisher>McGraw Hill</rdf:publisher>
+	<rdf:year>1988</rdf:year>
+	<rdf:cost>450</rdf:cost>
+	<rdf:location>405</rdf:location>
+	 
+	<rdf:dateofreturn>N/A</rdf:dateofreturn>
+<rdf:booksAvailable>2/10</rdf:booksAvailable>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/94">
+	<rdf:author>Taub, Herbert</rdf:author>
+	<rdf:title>Principles of communication system</rdf:title>
+	<rdf:edition>2nd</rdf:edition>
+	<rdf:publisher>Tata McGraw hill</rdf:publisher>
+	<rdf:year>1999</rdf:year>
+	<rdf:cost>215</rdf:cost>
+	<rdf:location>405</rdf:location>
+	 
+	<rdf:dateofreturn>N/A</rdf:dateofreturn>
+<rdf:booksAvailable>2/10</rdf:booksAvailable>
+</rdf:Description>
+
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/96">
+	<rdf:author>Dromey, R.G.</rdf:author>
+	<rdf:title>How to solve it by computer</rdf:title>
+	<rdf:edition>1st</rdf:edition>
+	<rdf:publisher>Prentice- hall of India</rdf:publisher>
+	<rdf:year>2000</rdf:year>
+	<rdf:cost>95</rdf:cost>
+	<rdf:location>405</rdf:location>
+	 
+	<rdf:dateofreturn>N/A</rdf:dateofreturn>
+<rdf:booksAvailable>2/10</rdf:booksAvailable>
+</rdf:Description>
+
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/111">
+	<rdf:author>Goyal, J.K</rdf:author>
+	<rdf:title>Functions of a complex variable</rdf:title>
+	<rdf:edition>14th</rdf:edition>
+	<rdf:publisher>Pragati Prakashan</rdf:publisher>
+	<rdf:year>2000</rdf:year>
+	<rdf:cost>110</rdf:cost>
+	<rdf:location>405</rdf:location>
+	 
+	<rdf:dateofreturn>N/A</rdf:dateofreturn>
+<rdf:booksAvailable>2/10</rdf:booksAvailable>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/112">
+	<rdf:author>Shukla, M.C</rdf:author>
+	<rdf:title>Advanced accounts</rdf:title>
+	<rdf:edition>14th</rdf:edition>
+	<rdf:publisher>S Chand</rdf:publisher>
+	<rdf:year>2001</rdf:year>
+	<rdf:cost>400</rdf:cost>
+	<rdf:location>405</rdf:location>
+	 
+	<rdf:dateofreturn>N/A</rdf:dateofreturn>
+<rdf:booksAvailable>2/10</rdf:booksAvailable>
+</rdf:Description>
+
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/132">
+	<rdf:author>Grewal, B.S.</rdf:author>
+	<rdf:title>Elementry engineering mathematics</rdf:title>
+	<rdf:edition>10th</rdf:edition>
+	<rdf:publisher>Khanna</rdf:publisher>
+	<rdf:year>2000</rdf:year>
+	<rdf:cost>110</rdf:cost>
+	<rdf:location>302</rdf:location>
+	 
+	<rdf:dateofreturn>N/A</rdf:dateofreturn>
+<rdf:booksAvailable>2/10</rdf:booksAvailable>
+</rdf:Description>
+
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/152">
+	<rdf:author>Gupta, P.P</rdf:author>
+	<rdf:title>Engineering mathematics vol.II</rdf:title>
+	<rdf:edition>1st</rdf:edition>
+	<rdf:publisher>Krishna Prakashan</rdf:publisher>
+	<rdf:year>2001</rdf:year>
+	<rdf:cost>220</rdf:cost>
+	<rdf:location>303</rdf:location>
+	 
+	<rdf:dateofreturn>N/A</rdf:dateofreturn>
+<rdf:booksAvailable>2/10</rdf:booksAvailable>
+</rdf:Description>
+
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/162">
+	<rdf:author>Little, Richard.L</rdf:author>
+	<rdf:title>Welding and welding technology</rdf:title>
+	<rdf:edition>1st</rdf:edition>
+	<rdf:publisher>Tata McGraw hill</rdf:publisher>
+	<rdf:year>1999</rdf:year>
+	<rdf:cost>155</rdf:cost>
+	<rdf:location>303</rdf:location>
+	 
+	<rdf:dateofreturn>N/A</rdf:dateofreturn>
+<rdf:booksAvailable>2/10</rdf:booksAvailable>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/163">
+	<rdf:author>Parikh, Kirit.S</rdf:author>
+	<rdf:title>India development report</rdf:title>
+	<rdf:edition>1st</rdf:edition>
+	<rdf:publisher>Oxford university</rdf:publisher>
+	<rdf:year>1999</rdf:year>
+	<rdf:cost>345</rdf:cost>
+	<rdf:location>303</rdf:location>
+	 
+	<rdf:dateofreturn>N/A</rdf:dateofreturn>
+<rdf:booksAvailable>2/10</rdf:booksAvailable>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/164">
+	<rdf:author>Rao, P.N</rdf:author>
+	<rdf:title>Manufacturing technology metal cutting and machine tools</rdf:title>
+	<rdf:edition>1st</rdf:edition>
+	<rdf:publisher>Tata McGraw hill</rdf:publisher>
+	<rdf:year>2000</rdf:year>
+	<rdf:cost>175</rdf:cost>
+	<rdf:location>303</rdf:location>
+	 
+	<rdf:dateofreturn>N/A</rdf:dateofreturn>
+<rdf:booksAvailable>2/10</rdf:booksAvailable>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/165">
+	<rdf:author>Sharma, G.V</rdf:author>
+	<rdf:title>Combinatorics and graph theory</rdf:title>
+	<rdf:edition>1st</rdf:edition>
+	<rdf:publisher>Vikas</rdf:publisher>
+	<rdf:year>2000</rdf:year>
+	<rdf:cost>100</rdf:cost>
+	<rdf:location>303</rdf:location>
+	 
+	<rdf:dateofreturn>N/A</rdf:dateofreturn>
+<rdf:booksAvailable>2/10</rdf:booksAvailable>
+</rdf:Description>
+
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/175">
+	<rdf:author>Siddiqui, S.A.</rdf:author>
+	<rdf:title>Comprehensive accountancy</rdf:title>
+	<rdf:edition>1st</rdf:edition>
+	<rdf:publisher>Laxmi</rdf:publisher>
+	<rdf:year>2001</rdf:year>
+	<rdf:cost>170</rdf:cost>
+	<rdf:location>303</rdf:location>
+	 
+	<rdf:dateofreturn>N/A</rdf:dateofreturn>
+<rdf:booksAvailable>2/10</rdf:booksAvailable>
+</rdf:Description>
+
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/185">
+	<rdf:author>Singh, Ranbir</rdf:author>
+	<rdf:title>Understanding foxpro</rdf:title>
+	<rdf:edition>1st</rdf:edition>
+	<rdf:publisher>Excel</rdf:publisher>
+	<rdf:year>2000</rdf:year>
+	<rdf:cost>150</rdf:cost>
+	<rdf:location>301</rdf:location>
+	 
+	<rdf:dateofreturn>N/A</rdf:dateofreturn>
+<rdf:booksAvailable>2/10</rdf:booksAvailable>
+</rdf:Description>
+
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/190">
+	<rdf:author>Sneddon, Ian</rdf:author>
+	<rdf:title>Element of partial differential equations</rdf:title>
+	<rdf:edition>1st</rdf:edition>
+	<rdf:publisher>Tata McGraw hill</rdf:publisher>
+	<rdf:year>1957</rdf:year>
+	<rdf:cost>399.5</rdf:cost>
+	<rdf:location>301</rdf:location>
+	 
+	<rdf:dateofreturn>N/A</rdf:dateofreturn>
+<rdf:booksAvailable>2/10</rdf:booksAvailable>
+</rdf:Description>
+
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/193">
+	<rdf:author>Spiegel, Murray .R</rdf:author>
+	<rdf:title>Schaum's out line theory and problems of advanced calculus</rdf:title>
+	<rdf:edition>1st</rdf:edition>
+	<rdf:publisher>McGraw Hill</rdf:publisher>
+	<rdf:year>1974</rdf:year>
+	<rdf:cost>374</rdf:cost>
+	<rdf:location>301</rdf:location>
+	 
+	<rdf:dateofreturn>N/A</rdf:dateofreturn>
+	<rdf:booksAvailable>2/10</rdf:booksAvailable>
+</rdf:Description>
+
+
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/197">
+	<rdf:author>Wirth, Niklaus</rdf:author>
+	<rdf:title>Algorithms+data structure=programs</rdf:title>
+	<rdf:edition>1st</rdf:edition>
+	<rdf:publisher>Prentice- hall of India</rdf:publisher>
+	<rdf:year>2000</rdf:year>
+	<rdf:cost>95</rdf:cost>
+	<rdf:location>301</rdf:location>
+	 
+	<rdf:dateofreturn>N/A</rdf:dateofreturn>
+<rdf:booksAvailable>2/10</rdf:booksAvailable>
+</rdf:Description>
+
+
+</rdf:RDF>

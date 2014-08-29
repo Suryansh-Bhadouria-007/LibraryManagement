@@ -1,0 +1,105 @@
+<html>
+  <head>
+    <title>Books API Example</title>
+    <link rel="Stylesheet" type="text/css" href="css/smoothDivScroll.css" />
+	
+	<!-- Styles for my specific scrolling content -->
+	<style type="text/css">
+
+		
+		.bookDetail {
+			text-align:center;
+			width: 300px;
+			padding: 20px 30px;
+			background: #fff;
+			max-height:600px;
+			overflow:hidden;
+}
+		#makeMeScrollable
+		{
+			width:100%;
+			height: 400px;
+			position: relative;
+		}
+		
+		/* Replace the last selector for the type of element you have in
+		   your scroller. If you have div's use #makeMeScrollable div.scrollableArea div,
+		   if you have links use #makeMeScrollable div.scrollableArea a and so on. */
+		#makeMeScrollable div.scrollableArea div
+		{
+			position: relative;
+			float: left;
+			margin: 0;
+			padding: 0;
+			/* If you don't want the images in the scroller to be selectable, try the following
+			   block of code. It's just a nice feature that prevent the images from
+			   accidentally becoming selected/inverted when the user interacts with the scroller. */
+			/*-webkit-user-select: none;
+			-khtml-user-select: none;
+			-moz-user-select: none;
+			-o-user-select: none;
+			user-select: none;
+			*/
+		}
+	</style>
+    
+    
+  </head>
+  <body>
+    <div id="makeMeScrollable"></div>
+    <script>
+      function handleResponse(response) {
+      for (var i = 0; i < response.items.length; i++) {
+        var item = response.items[i];
+		if(item.volumeInfo.industryIdentifiers[0].type=="ISBN_13") 
+			isbn = item.volumeInfo.industryIdentifiers[0].identifier;
+		else
+			isbn = item.volumeInfo.industryIdentifiers[1].identifier;
+		//saleInfo.listPrice.currencyCode = "INR";
+        // in production code, item.text should have the HTML entities escaped.
+        document.getElementById("makeMeScrollable").innerHTML += "<div class='bookDetail'>" + item.volumeInfo.title
+		+"<br/>"+item.volumeInfo.authors[0]
+		+"<br/>"+"<img src='"+item.volumeInfo.imageLinks.thumbnail+"'/>"
+		+"<br/>"+item.volumeInfo.publisher
+		//+"<br/>"+item.volumeInfo.description
+		+"<br/>Rating -"+item.volumeInfo.averageRating+"/5"
+		+"<br/>View on"
+		+"<br/><a href='"+item.accessInfo.webReaderLink+"' target='_blank'>Google Books |</a>"
+		+"<a href='http://www.flipkart.com/search?q="+isbn+"' target='_blank'> Flipkart |</a>"
+		+"<a href='http://www.infibeam.com/Books/search?q="+isbn+"' target='_blank'> Infibeam</a>"
+		+"</div>";
+
+      }
+    }
+    </script>
+    <script src="https://www.googleapis.com/books/v1/volumes?q='Advanced accounts'&callback=handleResponse"></script>
+    <!-- jQuery library - Please load it from Google API's -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
+
+	<!-- jQuery UI (Custom Download containing only Widget and Effects Core)
+	     You can make your own at: http://jqueryui.com/download -->
+	<script src="js/jquery-ui-1.10.3.custom.min.js" type="text/javascript"></script>
+	
+	<!-- Latest version (3.1.4) of jQuery Mouse Wheel by Brandon Aaron
+	     You will find it here: https://github.com/brandonaaron/jquery-mousewheel -->
+	<script src="js/jquery.mousewheel.min.js" type="text/javascript"></script>
+
+	<!-- jQuery Kinectic (1.8.2) used for touch scrolling -->
+	<!-- https://github.com/davetayls/jquery.kinetic/ -->
+	<script src="js/jquery.kinetic.min.js" type="text/javascript"></script>
+
+	<!-- Smooth Div Scroll 1.3 minified-->
+	<script src="js/jquery.smoothdivscroll-1.3-min.js" type="text/javascript"></script>
+
+    
+    <script type="text/javascript">
+	$(document).ready(function () {
+		$("div#makeMeScrollable").smoothDivScroll({
+			mousewheelScrolling: "allDirections",
+			manualContinuousScrolling: true,
+			autoScrollingMode: "onStart"
+		});
+	});
+</script>
+  </body>
+</html>
